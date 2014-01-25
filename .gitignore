@@ -1,7 +1,7 @@
 # Unity3D Ignored Garbage
 .DS_Store
-Library/*
-Temp
+GGJ2014/Library/*
+GGJ2014/Temp/*
 test-results
 *.csproj
 *.suo
@@ -10,4 +10,3 @@ test-results
 *.pidb
 *.sln
 *.unityproj
-Library/InspectorExpandedItems.asset
