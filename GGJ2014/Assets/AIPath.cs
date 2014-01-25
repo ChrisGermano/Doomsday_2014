@@ -17,12 +17,10 @@ public class AIPath : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		transform.Translate (transform.forward * Speed);
+		transform.Translate (Vector3.forward * Speed);
+		
 
 	}
 
-	void OnTriggerEnter(Collider c){
-		double y = r.NextDouble() * 360;
-		transform.Rotate(new Vector3(0, (float)y, 0));
-	}
+
 }
