@@ -13,5 +13,7 @@ public class CameraMove : MonoBehaviour
 	void Movement()
 	{
 		transform.Rotate(Input.GetAxis("RightStick_V") * Time.deltaTime * PlayerRotationSpeed,0,0);
+		transform.Rotate(Input.GetAxis("MouseY") * Time.deltaTime * PlayerRotationSpeed,0,0);
+
 	}
 }
