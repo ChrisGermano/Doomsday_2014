@@ -11,7 +11,6 @@ public class Preach : MonoBehaviour {
 	public int[] moves;
 	private int numMoves;
 
-	// Use this for initialization
 	void Start () {
 		followers = new Stack();
 		preaching = false;
@@ -19,7 +18,6 @@ public class Preach : MonoBehaviour {
 		moves = new int[3];
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
 		if (preaching) {
