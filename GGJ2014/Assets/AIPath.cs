@@ -4,28 +4,55 @@ using System.Collections;
 
 public class AIPath : MonoBehaviour {
 
-	public float Speed = 0.1f;
+	public float Speed = 1f;
 
-	float rotatespeed = 2;
+	float rotatespeed = 1;
 	bool Rotating = false;
+	public bool Following = false;
 	System.Random r;
-
+	GameObject Player;
 
 	// Use this for initialization
 	void Start () {
+		Player = GameObject.FindGameObjectWithTag("Player");
 		r = new System.Random();
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(!Rotating){
-			transform.position += transform.forward * Speed;
-			RaycastHit target;
-			if (Physics.Raycast (transform.position, transform.forward, out target, 10.0f)) {
-				Quaternion xx = Quaternion.LookRotation(target.normal, transform.up);
-				StartCoroutine(RotateCharacter(xx));
-				transform.Rotate (new Vector3(0, (float)(r.NextDouble()*90 - 45), 0));
+
+		RaycastHit target;
+		bool hit_obj = Physics.Raycast (transform.position, transform.forward, out target, 5.0f);
+		if(Following){
+		
+			bool I_Care = false;
+			if(hit_obj){
+				I_Care = target.collider.gameObject.tag == "Building";
+			} 
+			if(I_Care){
+				transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target.normal * 
+				                                                                                 	(5/Vector3.Distance (transform.position,target.transform.position)), 
+				                                                                                 transform.up), rotatespeed*Time.deltaTime);
+
+			} else {
+				transform.rotation = Quaternion.Slerp(transform.rotation,
+			                                      Quaternion.LookRotation(Player.transform.position - transform.position), rotatespeed*Time.deltaTime);
+			
+			}
+			if(Vector3.Distance(Player.transform.position, transform.position) < 5){
+				return;
+			}
+			//move towards the player
+			transform.position += transform.forward * Speed * Time.deltaTime;
+		} else {
+			if(!Rotating){
+				transform.position += transform.forward * Speed * Time.deltaTime;
+				if (hit_obj) {
+					Quaternion xx = Quaternion.LookRotation(target.normal, transform.up);
+					StartCoroutine(RotateCharacter(xx));
+					transform.Rotate (new Vector3(0, (float)(r.NextDouble()*90 - 45), 0));
+				}
 			}
 		}
 
@@ -55,4 +82,7 @@ public class AIPath : MonoBehaviour {
 		Gizmos.DrawRay(transform.position, transform.forward * 10);
 	}
 
+	public void SetFollow(){
+		Following = true;
+	}
 }
