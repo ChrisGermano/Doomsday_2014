@@ -26,6 +26,7 @@ public class Preach : MonoBehaviour {
 				numMoves = 0;
 				moves = new int[3];
 				targetPerson.GetComponentInChildren<Light>().intensity = 0f;
+				targetPerson = null;
 			} else if (Input.GetKeyDown ("1")) {
 				moves[numMoves] = 1;
 				numMoves++;
@@ -36,7 +37,7 @@ public class Preach : MonoBehaviour {
 				moves[numMoves] = 3;
 				numMoves++;
 			}
-		} else {
+		} else if (targetPerson == null) {
 			Transform cam = Camera.main.transform;
 			RaycastHit target;
 			if (Physics.Raycast (cam.position, cam.forward, out target, 10.0f)) {
@@ -59,23 +60,33 @@ public class Preach : MonoBehaviour {
 	}
 
 	private void checkMoves(int[] ms) {
-		//PersonScript ps = targetPerson.GetComponent<PersonScript>();
-		//int[] personThoughts = ps.thoughts;
+		PersonScript ps = targetPerson.GetComponent<PersonScript>();
+		AIPath aips = targetPerson.GetComponent<AIPath>();
+
+		int[] personThoughts = ps.thoughts;
 		int successCounter = 0;
 		for (int i = 0; i < moves.Length; i++) {
-			//if (moves[i] == personThoughts[i]) {
+			if (moves[i] == personThoughts[i]) {
 				successCounter++;
-			//}
+			}
 		}
 
 		if (successCounter > 1) {
-			targetPerson.GetComponentInChildren<Light>().intensity = 0f;
+			aips.Following = true;
 			followers.Push(targetPerson);
 		} else {
-			if (followers.Count > 1) {
-				followers.Pop();
+			if (followers.Count > 0) {
+				GameObject popped = (GameObject)followers.Pop();
+				Debug.Log ("Name: " + popped.name);
+				if (popped != null) {
+					Debug.Log ("AI!");
+					AIPath aips2 = popped.GetComponent<AIPath>();
+					aips2.Following = false;
+				}
 			}
 		}
+		targetPerson.GetComponentInChildren<Light>().intensity = 0f;
+		targetPerson = null;
 	}
 
 }
