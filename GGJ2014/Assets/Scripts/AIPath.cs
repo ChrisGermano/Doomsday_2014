@@ -19,6 +19,7 @@ public class AIPath : MonoBehaviour {
 		Player = GameObject.FindGameObjectWithTag("Player");
 		r = new System.Random();
 		anim = transform.Find ("model").animation;
+		transform.Find("board_model").gameObject.SetActive(false);
 		anim.Play ("Walk Start");
 		anim.PlayQueued("Walk Loop");
 	}
@@ -114,7 +115,10 @@ public class AIPath : MonoBehaviour {
 		GetComponentInChildren<Light>().intensity = 0f;
 	}
 	public void SetFollow(){
-
+		GameObject board = transform.Find ("board_model").gameObject;
+		anim = board.animation;
+		board.SetActive(true);
+		transform.Find("model").gameObject.SetActive(false);
 		Following = true;
 	}
 }
