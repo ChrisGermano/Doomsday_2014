@@ -69,10 +69,13 @@ public class Preach : MonoBehaviour {
 		}
 
 		if (timeLeft <= 0) {
-			if (followers.Count >= (GetComponent<Spawn>().numAI / 10))
+			if (followers.Count >= (GetComponent<Spawn>().numAI / 10)) {
 				GetComponent<EndGame>().doomsday = true;
-			 else
+				RenderSettings.fogColor = new Color(0f,0f,0f);
+			} else {
 				GetComponent<EndGame>().doomsday = false;
+				RenderSettings.fogColor = new Color(1f,1f,1f);
+			}
 			if (GetComponent<EndGame>().startT == 0)
 				GetComponent<EndGame>().startT = endTime;
 			GetComponent<EndGame>().EndUpdate();

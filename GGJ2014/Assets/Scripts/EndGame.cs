@@ -9,6 +9,8 @@ public class EndGame : MonoBehaviour {
 	private Vector3 meteorStart;
 	private Vector3 meteorScale;
 	private float meteorFlameScale;
+	public AudioClip doom;
+	public AudioClip saved;
 
 	public Camera mainC;
 	private float noise;
@@ -25,11 +27,6 @@ public class EndGame : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		RenderSettings.skybox.SetColor("_Tint", new Color(0f, 0f, 1f));
-		if (doomsday) {
-			RenderSettings.fogColor = new Color(0f,0f,0f);
-		} else {
-			RenderSettings.fogColor = new Color(1f,1f,1f);
-		}
 		skyboxC = RenderSettings.skybox.GetColor("_Tint");
 		meteorStart = meteor.transform.position;
 		meteorScale = meteor.transform.localScale;
@@ -38,7 +35,6 @@ public class EndGame : MonoBehaviour {
 	}
 
 	public void EndUpdate () {
-		Debug.Log (Time.time + " - " + startT);
 		float movedDist = (Time.time - startT) * speed;
 		float perDist = movedDist / dist;
 		meteor.transform.position = Vector3.Lerp(meteorStart, new Vector3(0f,0f,0f), perDist);
@@ -46,10 +42,22 @@ public class EndGame : MonoBehaviour {
 			meteor.transform.localScale = Vector3.Lerp (meteorScale, new Vector3(0f,0f,0f), perDist);
 			meteor.GetComponent<ParticleSystem>().startLifetime = Mathf.Lerp (meteorFlameScale, 0f, perDist);
 			RenderSettings.skybox.SetColor("_Tint", Color.Lerp(skyboxC, goodColor, perDist));
+			if (mainC.GetComponent<AudioSource>().isPlaying) {
+				mainC.GetComponent<AudioSource>().volume = Mathf.Lerp (0f, 1f, perDist);
+			} else {
+				mainC.GetComponent<AudioSource>().clip = saved;
+				mainC.GetComponent<AudioSource>().Play();
+			}
 		} else {
 			mainC.GetComponent<NoiseEffect>().grainIntensityMin = Mathf.Lerp (0f, 0.5f, perDist);
 			mainC.GetComponent<NoiseEffect>().grainIntensityMax = Mathf.Lerp (0f, 3f, perDist);
 			mainC.GetComponent<NoiseEffect>().grainSize = Mathf.Lerp (0f, 5f, perDist);
+			if (mainC.GetComponent<AudioSource>().isPlaying) {
+				mainC.GetComponent<AudioSource>().volume = Mathf.Lerp (0f, 0.35f, perDist);
+			} else {
+				mainC.GetComponent<AudioSource>().clip = doom;
+				mainC.GetComponent<AudioSource>().Play();
+			}
 			RenderSettings.skybox.SetColor("_Tint", Color.Lerp(skyboxC, badColor, perDist));
 		}
 
