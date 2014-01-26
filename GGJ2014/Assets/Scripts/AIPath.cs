@@ -13,6 +13,12 @@ public class AIPath : MonoBehaviour {
 	Animation anim;
 	System.Random r;
 	GameObject Player;
+	AudioSource footsteps;
+	AudioSource talk;
+
+	
+	public int[] thoughts = new int[3];
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +28,13 @@ public class AIPath : MonoBehaviour {
 		transform.Find("board_model").gameObject.SetActive(false);
 		anim.Play ("Walk Start");
 		anim.PlayQueued("Walk Loop");
+		AudioSource[] aSources = GetComponents<AudioSource>();
+		footsteps = aSources[0];
+		talk = aSources[1];
+
+		for (int i = 0; i < thoughts.Length; i++) {
+			thoughts[i] = Random.Range(1,3);
+		}
 		
 	}
 	
@@ -126,10 +139,30 @@ public class AIPath : MonoBehaviour {
 	}
 
 	private void PlayAudio(){
-		if(!audio.isPlaying){
-			audio.pitch = 0.5f + (float)r.NextDouble();
-			audio.Play();
+		if(!footsteps.isPlaying){
+			footsteps.pitch = 0.5f + (float)r.NextDouble();
+			footsteps.Play();
 		}
 
+	}
+
+	public int ValidateGuess(int[] moves){
+		
+		int successCounter = 0;
+		for (int i = 0; i < moves.Length; i++) {
+			if (moves[i] == thoughts[i]) {
+				successCounter++;
+			}
+		}
+
+		if(successCounter > 1){
+			talk.pitch = 1.2f;
+			talk.Play();
+		} else {
+			talk.pitch = 0.8f;
+			talk.Play();
+		}
+
+		return successCounter;
 	}
 }

@@ -16,6 +16,7 @@ public class Preach : MonoBehaviour {
 	private float endTime;
 
 	private int badPreaching;
+	
 
 	void Start () {
 		badPreaching = 0;
@@ -80,16 +81,8 @@ public class Preach : MonoBehaviour {
 	}
 
 	private void checkMoves(int[] ms) {
-		PersonScript ps = targetPerson.GetComponent<PersonScript>();
 		AIPath aips = targetPerson.GetComponent<AIPath>();
-
-		int[] personThoughts = ps.thoughts;
-		int successCounter = 0;
-		for (int i = 0; i < moves.Length; i++) {
-			if (moves[i] == personThoughts[i]) {
-				successCounter++;
-			}
-		}
+		int successCounter = aips.ValidateGuess(ms);
 
 		if (successCounter > 1) {
 			aips.SetFollow();
@@ -108,7 +101,7 @@ public class Preach : MonoBehaviour {
 				}
 			}
 		}
-		targetPerson.GetComponentInChildren<AIPath>().SetPreachedOff();
+		aips.SetPreachedOff();
 		targetPerson = null;
 	}
 
