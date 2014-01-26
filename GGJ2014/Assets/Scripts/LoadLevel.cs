@@ -29,7 +29,9 @@ public class LoadLevel : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		Screen.showCursor = false;
+		if(Application.loadedLevelName != "TitleScene"){
+			Screen.showCursor = false;
+		}
 		fadingIn = true;
 	}
 	
