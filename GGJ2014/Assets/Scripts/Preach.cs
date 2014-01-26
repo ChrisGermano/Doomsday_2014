@@ -31,19 +31,19 @@ public class Preach : MonoBehaviour {
 		float timeLeft = endTime - Time.time;
 
 		if (preaching) {
-			if (Input.GetKeyDown("space")) {
+			if (Input.GetKeyDown("space") || Input.GetButtonDown ("360_AButton")) {
 				targetPerson.GetComponentInChildren<AIPath>().SetPreachedOff();
 				preaching = false;
 				numMoves = 0;
 				moves = new int[3];
 				targetPerson = null;
-			} else if (Input.GetKeyDown ("1")) {
+			} else if (Input.GetKeyDown ("1") || Input.GetButtonDown ("360_XButton")) {
 				moves[numMoves] = 1;
 				numMoves++;
-			} else if (Input.GetKeyDown ("2")) {
+			} else if (Input.GetKeyDown ("2") || Input.GetButtonDown ("360_YButton")) {
 				moves[numMoves] = 2;
 				numMoves++;
-			} else if (Input.GetKeyDown ("3")) {
+			} else if (Input.GetKeyDown ("3") || Input.GetButtonDown ("360_BButton")) {
 				moves[numMoves] = 3;
 				numMoves++;
 			}
@@ -52,7 +52,7 @@ public class Preach : MonoBehaviour {
 			RaycastHit target;
 			if (Physics.Raycast (cam.position, cam.forward, out target, 10.0f)) {
 				if (target.transform.tag == "Person") {
-					if (Input.GetKeyDown("space")) {
+					if (Input.GetKeyDown("space") || Input.GetButtonDown ("360_AButton")) {
 						preaching = true;
 						targetPerson = target.collider.gameObject;
 						targetPerson.GetComponentInChildren<AIPath>().SetPreached();
