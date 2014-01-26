@@ -135,11 +135,20 @@ public class AIPath : MonoBehaviour {
 		GetComponentInChildren<Light>().intensity = 0f;
 	}
 	public void SetFollow(){
+		StartCoroutine(changeModel());
+		Following = true;
+	}
+
+	IEnumerator changeModel() {
+		anim.Play("Convert");
+		while(anim.isPlaying) 
+		{
+			yield return 0;
+		}
 		GameObject board = transform.Find ("board_model").gameObject;
 		anim = board.animation;
 		board.SetActive(true);
 		transform.Find("model").gameObject.SetActive(false);
-		Following = true;
 	}
 
 	private void PlayAudio(){

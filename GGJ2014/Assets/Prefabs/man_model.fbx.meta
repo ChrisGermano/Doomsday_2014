@@ -115,7 +115,7 @@ ModelImporter:
     7400000: Walk Loop
     7400002: Walk Start
     7400004: Walk End
-    7400006: Take 001
+    7400006: Convert
     9500000: //RootNode
     11100000: //RootNode
     13700000: body 1
@@ -573,7 +573,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Take 001
+      name: Convert
       takeName: Take 001
       firstFrame: 25
       lastFrame: 40
