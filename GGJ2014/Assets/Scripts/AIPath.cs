@@ -140,7 +140,7 @@ public class AIPath : MonoBehaviour {
 	}
 
 	IEnumerator changeModel() {
-		anim.Play("Convert");
+		//anim.Play("Convert");
 		while(anim.isPlaying) 
 		{
 			yield return 0;
