@@ -7,10 +7,10 @@ public class PersonScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		int thought = Random.Range (1,3);
+		int thought = Random.Range (1,50);
 		for (int i = 0; i < thoughts.Length; i++) {
-			thoughts[i] = thought;
-			thought = Random.Range (1,3);
+			thoughts[i] = thought % 3 + 1;
+			thought = Random.Range (1,50);
 		}
 	}
 	

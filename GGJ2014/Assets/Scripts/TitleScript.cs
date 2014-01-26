@@ -9,20 +9,25 @@ public class TitleScript : MonoBehaviour {
 	void Start () {
 	}
 	
-	void Update () {
+	void FixedUpdate () {
+		if (Input.GetButtonDown("360_StartButton")) {
+			Application.LoadLevel("GameScene");
+		} else if (Input.GetButtonDown("360_BackButton")) {
+			Application.Quit();
+		}
 	}
 
 	void OnMouseOver() {
-		renderer.material.color = new Color (0.2f,0.2f,0.2f);
+		renderer.material.color = new Color (0.7f,0.45f,0.27f);
 	}
 
 	void OnMouseExit() {
-		renderer.material.color = new Color(0.6f,0.6f,0.6f);
+		renderer.material.color = new Color(0.24f,0.28f,0.44f);
 	}
 
 	void OnMouseDown() {
 		if (this.gameObject.name == "PlayBuilding") {
-			Application.LoadLevel ("GameScene");
+			Application.LoadLevel("GameScene");
 		} else if (this.gameObject.name == "QuitBuilding") {
 			Application.Quit();
 		}
