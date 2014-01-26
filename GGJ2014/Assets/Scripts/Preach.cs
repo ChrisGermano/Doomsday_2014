@@ -107,5 +107,4 @@ public class Preach : MonoBehaviour {
 		aips.SetPreachedOff();
 		targetPerson = null;
 	}
-
 }
