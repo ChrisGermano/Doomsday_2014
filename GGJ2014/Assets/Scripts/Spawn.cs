@@ -9,6 +9,8 @@ public class Spawn : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		numAI = 50 + Random.Range (50,150);
+
 		int coordX;
 		int coordZ;
 

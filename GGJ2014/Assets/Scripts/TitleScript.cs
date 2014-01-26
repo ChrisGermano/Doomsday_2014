@@ -22,7 +22,7 @@ public class TitleScript : MonoBehaviour {
 
 	void OnMouseDown() {
 		if (this.gameObject.name == "PlayBuilding") {
-			Application.LoadLevel ("DemoScene");
+			Application.LoadLevel ("GameScene");
 		} else if (this.gameObject.name == "QuitBuilding") {
 			Application.Quit();
 		}

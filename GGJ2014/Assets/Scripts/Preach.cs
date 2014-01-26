@@ -8,10 +8,18 @@ public class Preach : MonoBehaviour {
 	private GameObject targetPerson;
 	private bool preaching;
 
+	public int timeL;
+
 	public int[] moves;
 	private int numMoves;
 
+	private float endTime;
+
+	private int badPreaching;
+
 	void Start () {
+		badPreaching = 0;
+		endTime = Time.time + timeL;
 		followers = new Stack();
 		preaching = false;
 		numMoves = 0;
@@ -19,6 +27,7 @@ public class Preach : MonoBehaviour {
 	}
 	
 	void Update () {
+		float timeLeft = endTime - Time.time;
 
 		if (preaching) {
 			if (Input.GetKeyDown("space")) {
@@ -57,6 +66,17 @@ public class Preach : MonoBehaviour {
 			preaching = false;
 			moves = new int[3];
 		}
+
+		if (timeLeft <= 0) {
+			if (followers.Count >= (GetComponent<Spawn>().numAI / 10)) {
+				GetComponent<EndGame>().doomsday = true;
+			} else {
+				GetComponent<EndGame>().doomsday = false;
+			}
+			GetComponent<EndGame>().startT = Time.time;
+			GetComponent<EndGame>().EndUpdate();
+		}
+
 	}
 
 	private void checkMoves(int[] ms) {
@@ -74,14 +94,17 @@ public class Preach : MonoBehaviour {
 		if (successCounter > 1) {
 			aips.SetFollow();
 			followers.Push(targetPerson);
+			badPreaching = 0;
 		} else {
 			if (followers.Count > 0) {
-				GameObject popped = (GameObject)followers.Pop();
-				Debug.Log ("Name: " + popped.name);
-				if (popped != null) {
-					Debug.Log ("AI!");
-					AIPath aips2 = popped.GetComponent<AIPath>();
-					aips2.Following = false;
+				badPreaching++;
+				if (badPreaching == 2) {
+					GameObject popped = (GameObject)followers.Pop();
+					if (popped != null) {
+						AIPath aips2 = popped.GetComponent<AIPath>();
+						aips2.Following = false;
+					}
+					badPreaching = 0;
 				}
 			}
 		}

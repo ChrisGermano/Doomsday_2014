@@ -18,7 +18,7 @@ public class EndGame : MonoBehaviour {
 	private Color badColor = new Color(1f,0f,0f,1f);
 	private Color goodColor = new Color(0.059f,0.725f,1f,1f);
 
-	private float startT;
+	public float startT;
 	private float dist;
 	private float speed = 40f;
 
@@ -30,15 +30,13 @@ public class EndGame : MonoBehaviour {
 			RenderSettings.fogColor = new Color(1f,1f,1f);
 		}
 		skyboxC = RenderSettings.skybox.GetColor("_Tint");
-		startT = Time.time;
 		meteorStart = meteor.transform.position;
 		meteorScale = meteor.transform.localScale;
 		meteorFlameScale = meteor.GetComponent<ParticleSystem>().startLifetime;
 		dist = Vector3.Distance (meteorStart, new Vector3(0f,0f,0f));
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	public void EndUpdate () {
 		float movedDist = (Time.time - startT) * speed;
 		float perDist = movedDist / dist;
 		meteor.transform.position = Vector3.Lerp(meteorStart, new Vector3(0f,0f,0f), perDist);

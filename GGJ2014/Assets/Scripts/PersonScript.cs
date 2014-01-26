@@ -8,8 +8,7 @@ public class PersonScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		for (int i = 0; i < thoughts.Length; i++) {
-			//thoughts[i] = Random.Range(1,3);
-			thoughts[i] = 1;
+			thoughts[i] = Random.Range(1,3);
 		}
 	}
 	
