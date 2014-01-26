@@ -32,8 +32,12 @@ public class AIPath : MonoBehaviour {
 		footsteps = aSources[0];
 		talk = aSources[1];
 
+		System.Random rand = new System.Random();
+		int thought = (int)Mathf.Ceil((float)rand.NextDouble()*3);
 		for (int i = 0; i < thoughts.Length; i++) {
-			thoughts[i] = Random.Range(1,3);
+			thoughts[i] = thought;
+			thought = (int)Mathf.Ceil((float)rand.NextDouble()*3);
+			
 		}
 		
 	}
@@ -160,12 +164,14 @@ public class AIPath : MonoBehaviour {
 		}
 
 		if(successCounter > 1){
-			talk.pitch = 1.2f;
+			talk.pitch = 1.4f;
 			talk.Play();
 		} else {
 			talk.pitch = 0.8f;
 			talk.Play();
 		}
+
+		talk.pitch = 1f;
 
 		return successCounter;
 	}
