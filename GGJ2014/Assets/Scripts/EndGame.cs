@@ -53,7 +53,7 @@ public class EndGame : MonoBehaviour {
 
 		if (perDist >= 1) {
 			RenderSettings.skybox.SetColor("_Tint", new Color(0f, 0f, 1f));
-			//Application.LoadLevel("CreditScene");
+			Application.LoadLevel("CreditScene");
 		} else if (perDist > 0.8f) {
 			if (!RenderSettings.fog) {
 				RenderSettings.fog = true;
