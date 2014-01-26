@@ -23,7 +23,9 @@ public class Spawn : MonoBehaviour {
 				coordZ *= -1;
 			Vector3 loc = new Vector3((float)coordX, 2f, (float)coordZ);
 			GameObject tempAI = (GameObject)Instantiate(ai, loc, Quaternion.identity);
+		
 			tempAI.transform.Rotate(new Vector3(0, Random.Range (0,359), 0));
+			tempAI.GetComponent<AIPath>().SetThoughts();
 		}
 	}
 	

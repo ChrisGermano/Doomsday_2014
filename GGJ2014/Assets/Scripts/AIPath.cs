@@ -32,16 +32,19 @@ public class AIPath : MonoBehaviour {
 		footsteps = aSources[0];
 		talk = aSources[1];
 
+	}
+
+	public void SetThoughts(){
 		System.Random rand = new System.Random();
-		int thought = (int)Mathf.Ceil((float)rand.NextDouble()*3);
 		for (int i = 0; i < thoughts.Length; i++) {
+			
+			int thought = (int)Mathf.Ceil((float)rand.NextDouble()*3);
+			
 			thoughts[i] = thought;
-			thought = (int)Mathf.Ceil((float)rand.NextDouble()*3);
 			
 		}
-		
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
