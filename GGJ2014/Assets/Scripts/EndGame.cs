@@ -64,11 +64,12 @@ public class EndGame : MonoBehaviour {
 		if (perDist >= 1) {
 			Application.LoadLevel("CreditScene");
 		} else if (perDist > 0.8f) {
+
 			if (!RenderSettings.fog) {
 				RenderSettings.fog = true;
 			}
 
-			RenderSettings.fogDensity = (0.2f - (1 - perDist));
+			RenderSettings.fogDensity = (0.2f - (1 - perDist))/2;
 		}
 
 	}

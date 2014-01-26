@@ -3,13 +3,17 @@ using System.Collections;
 
 public class CreditScript : MonoBehaviour {
 
-	// Use this for initialization
+	private float endTime;
+
 	void Start () {
-	
+		endTime = Time.time + 10;
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	
+		float timeLeft = endTime - Time.time;
+
+		if (timeLeft <= 0) {
+			Application.LoadLevel ("TitleScene");
+		}
 	}
 }
