@@ -5,7 +5,7 @@ public class TitleScript : MonoBehaviour {
 
 	Ray ray;
 	RaycastHit hit;
-
+	bool loading = false;
 	void Start () {
 	}
 	
@@ -27,9 +27,33 @@ public class TitleScript : MonoBehaviour {
 
 	void OnMouseDown() {
 		if (this.gameObject.name == "PlayBuilding") {
-			Application.LoadLevel("GameScene");
+			if(!loading){
+				this.StartCoroutine(EndLevel());
+				loading = true;
+			}
 		} else if (this.gameObject.name == "QuitBuilding") {
 			Application.Quit();
+		}
+	}
+
+	
+	
+	private IEnumerator EndLevel()
+	{
+		LoadLevel lvl = this.gameObject.GetComponent<LoadLevel>();
+		bool waiting = true;
+		lvl.FadeOut();
+		while(waiting)
+		{
+			if(lvl.IsFading())
+			{
+				yield return 0;
+			}
+			else 
+			{
+				waiting = false;
+				Application.LoadLevel("GameScene");
+			}
 		}
 	}
 }
