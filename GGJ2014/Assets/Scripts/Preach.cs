@@ -94,7 +94,7 @@ public class Preach : MonoBehaviour {
 		} else {
 			if (followers.Count > 0) {
 				badPreaching++;
-				if (badPreaching == 2) {
+				if (badPreaching == 3) {
 					GameObject popped = (GameObject)followers.Pop();
 					if (popped != null) {
 						AIPath aips2 = popped.GetComponent<AIPath>();

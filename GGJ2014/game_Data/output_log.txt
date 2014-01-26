@@ -21,41 +21,28 @@ desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Input initialized.
 Unsupported: Hidden/Dof/DX11Dof
 Platform assembly: C:\Users\Duncan\Documents\GitHub\LovePlatypus_GGJ2014\GGJ2014\game_Data\Managed\Boo.Lang.dll (this message is harmless)
-UnloadTime: 2.284979 ms
+UnloadTime: 2.331368 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1397.
-Total: 0.922859 ms (FindLiveObjects: 0.050083 ms CreateObjectMapping: 0.014368 ms MarkObjects: 0.148199 ms  DeleteObjects: 0.258219 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 1.048890 ms (FindLiveObjects: 0.059526 ms CreateObjectMapping: 0.022168 ms MarkObjects: 0.182683 ms  DeleteObjects: 0.309946 ms)
 
-UnloadTime: 38.904999 ms
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 240.
-Total: 2.258295 ms (FindLiveObjects: 0.021757 ms CreateObjectMapping: 0.017242 ms MarkObjects: 0.153125 ms  DeleteObjects: 1.382646 ms)
-
-Unsupported: Hidden/Dof/DX11Dof
-UnloadTime: 0.354693 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2334.
-Total: 0.691733 ms (FindLiveObjects: 0.084978 ms CreateObjectMapping: 0.015189 ms MarkObjects: 0.154767 ms  DeleteObjects: 0.020526 ms)
-
-UnloadTime: 1.954917 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1411.
-Total: 1.068184 ms (FindLiveObjects: 0.053778 ms CreateObjectMapping: 0.017242 ms MarkObjects: 0.186788 ms  DeleteObjects: 0.374398 ms)
-
-UnloadTime: 13.473004 ms
+UnloadTime: 15.424638 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 250.
-Total: 2.187274 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.014778 ms MarkObjects: 0.159283 ms  DeleteObjects: 1.304236 ms)
+Unloading 376 unused Assets to reduce memory usage. Loaded Objects now: 236.
+Total: 2.656504 ms (FindLiveObjects: 0.036947 ms CreateObjectMapping: 0.019294 ms MarkObjects: 0.156409 ms  DeleteObjects: 1.707371 ms)
 
 Unsupported: Hidden/Dof/DX11Dof
-UnloadTime: 0.354693 ms
+UnloadTime: 0.355103 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 0.758649 ms (FindLiveObjects: 0.079231 ms CreateObjectMapping: 0.047620 ms MarkObjects: 0.172420 ms  DeleteObjects: 0.034073 ms)
+Total: 0.691733 ms (FindLiveObjects: 0.079231 ms CreateObjectMapping: 0.015599 ms MarkObjects: 0.150662 ms  DeleteObjects: 0.017242 ms)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1650)
 
