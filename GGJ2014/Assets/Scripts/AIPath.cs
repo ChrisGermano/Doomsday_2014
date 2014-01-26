@@ -140,7 +140,11 @@ public class AIPath : MonoBehaviour {
 
 	private void PlayAudio(){
 		if(!footsteps.isPlaying){
-			footsteps.pitch = 0.5f + (float)r.NextDouble();
+			int multi = 1;
+			if (Random.Range (0,4) % 2 == 0) {
+				multi *= -1;
+			}
+			footsteps.pitch = 0.5f + ((float)r.NextDouble() * multi);
 			footsteps.Play();
 		}
 
