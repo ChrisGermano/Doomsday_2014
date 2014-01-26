@@ -22,10 +22,10 @@ public class Preach : MonoBehaviour {
 
 		if (preaching) {
 			if (Input.GetKeyDown("space")) {
+				targetPerson.GetComponentInChildren<AIPath>().SetPreachedOff();
 				preaching = false;
 				numMoves = 0;
 				moves = new int[3];
-				targetPerson.GetComponentInChildren<Light>().intensity = 0f;
 				targetPerson = null;
 			} else if (Input.GetKeyDown ("1")) {
 				moves[numMoves] = 1;
@@ -45,7 +45,7 @@ public class Preach : MonoBehaviour {
 					if (Input.GetKeyDown("space")) {
 						preaching = true;
 						targetPerson = target.collider.gameObject;
-						targetPerson.GetComponentInChildren<Light>().intensity = 1.4f;
+						targetPerson.GetComponentInChildren<AIPath>().SetPreached();
 					}
 				}
 			}
@@ -72,7 +72,7 @@ public class Preach : MonoBehaviour {
 		}
 
 		if (successCounter > 1) {
-			aips.Following = true;
+			aips.SetFollow();
 			followers.Push(targetPerson);
 		} else {
 			if (followers.Count > 0) {
@@ -85,7 +85,7 @@ public class Preach : MonoBehaviour {
 				}
 			}
 		}
-		targetPerson.GetComponentInChildren<Light>().intensity = 0f;
+		targetPerson.GetComponentInChildren<AIPath>().SetPreachedOff();
 		targetPerson = null;
 	}
 

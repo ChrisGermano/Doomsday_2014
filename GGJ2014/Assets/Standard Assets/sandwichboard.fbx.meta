@@ -1,0 +1,1283 @@
+fileFormatVersion: 2
+guid: 35616cd1e6a31214f91dcd507e2ea45b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: board_b
+    100002: board_f
+    100004: body
+    100006: head
+    100008: joint1
+    100010: joint2
+    100012: joint2 1
+    100014: joint3
+    100016: l_arm
+    100018: l_leg
+    100020: r_arm
+    100022: r_leg
+    100024: //RootNode
+    100026: skeleton:bodyctrl
+    100028: skeleton:group7
+    100030: skeleton:group7 1
+    100032: skeleton:head
+    100034: skeleton:head_ctrl
+    100036: skeleton:hip
+    100038: skeleton:hipctrl
+    100040: skeleton:l_arm
+    100042: skeleton:l_arm 1
+    100044: skeleton:l_armctrl
+    100046: skeleton:l_elbow
+    100048: skeleton:l_elbowctrl
+    100050: skeleton:l_foot
+    100052: skeleton:l_hand
+    100054: skeleton:l_knee
+    100056: skeleton:l_kneectrl
+    100058: skeleton:l_leg
+    100060: skeleton:l_legctrl
+    100062: skeleton:left
+    100064: skeleton:nurbsCircle1
+    100066: skeleton:nurbsCircle1 1
+    100068: skeleton:nurbsCircle1 2
+    100070: skeleton:nurbsCircle1 3
+    100072: skeleton:r_arm
+    100074: skeleton:r_arm 1
+    100076: skeleton:r_armctrl
+    100078: skeleton:r_elbow
+    100080: skeleton:r_elbowctrl
+    100082: skeleton:r_foot
+    100084: skeleton:r_hand
+    100086: skeleton:r_knee
+    100088: skeleton:r_kneectrl
+    100090: skeleton:r_leg
+    100092: skeleton:r_legctrl
+    100094: skeleton:spine
+    100096: skeleton:spine1
+    100098: skeleton:spine2
+    100100: skeleton:spine3
+    100102: skeleton:spinectrl1
+    100104: skeleton:spinectrl2
+    100106: skeleton:spinectrl3
+    100108: skeleton:spinectrl4
+    100110: walk:skeleton:bodyctrl
+    100112: walk:skeleton:group7
+    100114: walk:skeleton:group7 1
+    100116: walk:skeleton:head
+    100118: walk:skeleton:head_ctrl
+    100120: walk:skeleton:hip
+    100122: walk:skeleton:hipctrl
+    100124: walk:skeleton:l_arm
+    100126: walk:skeleton:l_arm 1
+    100128: walk:skeleton:l_armctrl
+    100130: walk:skeleton:l_elbow
+    100132: walk:skeleton:l_elbowctrl
+    100134: walk:skeleton:l_foot
+    100136: walk:skeleton:l_hand
+    100138: walk:skeleton:l_knee
+    100140: walk:skeleton:l_kneectrl
+    100142: walk:skeleton:l_leg
+    100144: walk:skeleton:l_legctrl
+    100146: walk:skeleton:left
+    100148: walk:skeleton:nurbsCircle1
+    100150: walk:skeleton:nurbsCircle1 1
+    100152: walk:skeleton:nurbsCircle1 2
+    100154: walk:skeleton:nurbsCircle1 3
+    100156: walk:skeleton:r_arm
+    100158: walk:skeleton:r_arm 1
+    100160: walk:skeleton:r_armctrl
+    100162: walk:skeleton:r_elbow
+    100164: walk:skeleton:r_elbowctrl
+    100166: walk:skeleton:r_foot
+    100168: walk:skeleton:r_hand
+    100170: walk:skeleton:r_knee
+    100172: walk:skeleton:r_kneectrl
+    100174: walk:skeleton:r_leg
+    100176: walk:skeleton:r_legctrl
+    100178: walk:skeleton:spine
+    100180: walk:skeleton:spine1
+    100182: walk:skeleton:spine2
+    100184: walk:skeleton:spine3
+    100186: walk:skeleton:spinectrl1
+    100188: walk:skeleton:spinectrl2
+    100190: walk:skeleton:spinectrl3
+    100192: walk:skeleton:spinectrl4
+    400000: board_b
+    400002: board_f
+    400004: body
+    400006: head
+    400008: joint1
+    400010: joint2
+    400012: joint2 1
+    400014: joint3
+    400016: l_arm
+    400018: l_leg
+    400020: r_arm
+    400022: r_leg
+    400024: //RootNode
+    400026: skeleton:bodyctrl
+    400028: skeleton:group7
+    400030: skeleton:group7 1
+    400032: skeleton:head
+    400034: skeleton:head_ctrl
+    400036: skeleton:hip
+    400038: skeleton:hipctrl
+    400040: skeleton:l_arm
+    400042: skeleton:l_arm 1
+    400044: skeleton:l_armctrl
+    400046: skeleton:l_elbow
+    400048: skeleton:l_elbowctrl
+    400050: skeleton:l_foot
+    400052: skeleton:l_hand
+    400054: skeleton:l_knee
+    400056: skeleton:l_kneectrl
+    400058: skeleton:l_leg
+    400060: skeleton:l_legctrl
+    400062: skeleton:left
+    400064: skeleton:nurbsCircle1
+    400066: skeleton:nurbsCircle1 1
+    400068: skeleton:nurbsCircle1 2
+    400070: skeleton:nurbsCircle1 3
+    400072: skeleton:r_arm
+    400074: skeleton:r_arm 1
+    400076: skeleton:r_armctrl
+    400078: skeleton:r_elbow
+    400080: skeleton:r_elbowctrl
+    400082: skeleton:r_foot
+    400084: skeleton:r_hand
+    400086: skeleton:r_knee
+    400088: skeleton:r_kneectrl
+    400090: skeleton:r_leg
+    400092: skeleton:r_legctrl
+    400094: skeleton:spine
+    400096: skeleton:spine1
+    400098: skeleton:spine2
+    400100: skeleton:spine3
+    400102: skeleton:spinectrl1
+    400104: skeleton:spinectrl2
+    400106: skeleton:spinectrl3
+    400108: skeleton:spinectrl4
+    400110: walk:skeleton:bodyctrl
+    400112: walk:skeleton:group7
+    400114: walk:skeleton:group7 1
+    400116: walk:skeleton:head
+    400118: walk:skeleton:head_ctrl
+    400120: walk:skeleton:hip
+    400122: walk:skeleton:hipctrl
+    400124: walk:skeleton:l_arm
+    400126: walk:skeleton:l_arm 1
+    400128: walk:skeleton:l_armctrl
+    400130: walk:skeleton:l_elbow
+    400132: walk:skeleton:l_elbowctrl
+    400134: walk:skeleton:l_foot
+    400136: walk:skeleton:l_hand
+    400138: walk:skeleton:l_knee
+    400140: walk:skeleton:l_kneectrl
+    400142: walk:skeleton:l_leg
+    400144: walk:skeleton:l_legctrl
+    400146: walk:skeleton:left
+    400148: walk:skeleton:nurbsCircle1
+    400150: walk:skeleton:nurbsCircle1 1
+    400152: walk:skeleton:nurbsCircle1 2
+    400154: walk:skeleton:nurbsCircle1 3
+    400156: walk:skeleton:r_arm
+    400158: walk:skeleton:r_arm 1
+    400160: walk:skeleton:r_armctrl
+    400162: walk:skeleton:r_elbow
+    400164: walk:skeleton:r_elbowctrl
+    400166: walk:skeleton:r_foot
+    400168: walk:skeleton:r_hand
+    400170: walk:skeleton:r_knee
+    400172: walk:skeleton:r_kneectrl
+    400174: walk:skeleton:r_leg
+    400176: walk:skeleton:r_legctrl
+    400178: walk:skeleton:spine
+    400180: walk:skeleton:spine1
+    400182: walk:skeleton:spine2
+    400184: walk:skeleton:spine3
+    400186: walk:skeleton:spinectrl1
+    400188: walk:skeleton:spinectrl2
+    400190: walk:skeleton:spinectrl3
+    400192: walk:skeleton:spinectrl4
+    4300000: body
+    4300002: l_leg
+    4300004: l_arm
+    4300006: head
+    4300008: r_leg
+    4300010: r_arm
+    4300012: board_b
+    4300014: board_f
+    7400000: Take 001
+    7400002: Walk Start
+    7400004: Walk Loop
+    7400006: Walk End
+    7400008: Take 0010
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: board_b
+    13700002: board_f
+    13700004: body
+    13700006: head
+    13700008: l_arm
+    13700010: l_leg
+    13700012: r_arm
+    13700014: r_leg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: board_b
+        weight: 1
+      - path: board_f
+        weight: 1
+      - path: body
+        weight: 1
+      - path: head
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint3
+        weight: 1
+      - path: joint3/joint2 1
+        weight: 1
+      - path: l_arm
+        weight: 1
+      - path: l_leg
+        weight: 1
+      - path: r_arm
+        weight: 1
+      - path: r_leg
+        weight: 1
+      - path: skeleton:bodyctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:hipctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7/skeleton:l_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1/skeleton:r_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee/skeleton:l_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee/skeleton:r_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:head
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow/skeleton:l_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow/skeleton:r_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3/skeleton:head_ctrl
+        weight: 1
+      - path: skeleton:left
+        weight: 1
+      - path: walk:skeleton:bodyctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:hipctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7/walk:skeleton:l_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1/walk:skeleton:r_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee/walk:skeleton:l_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee/walk:skeleton:r_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:head
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow/walk:skeleton:l_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow/walk:skeleton:r_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3/walk:skeleton:head_ctrl
+        weight: 1
+      - path: walk:skeleton:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk Start
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: board_b
+        weight: 1
+      - path: board_f
+        weight: 1
+      - path: body
+        weight: 1
+      - path: head
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint3
+        weight: 1
+      - path: joint3/joint2 1
+        weight: 1
+      - path: l_arm
+        weight: 1
+      - path: l_leg
+        weight: 1
+      - path: r_arm
+        weight: 1
+      - path: r_leg
+        weight: 1
+      - path: skeleton:bodyctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:hipctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7/skeleton:l_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1/skeleton:r_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee/skeleton:l_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee/skeleton:r_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:head
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow/skeleton:l_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow/skeleton:r_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3/skeleton:head_ctrl
+        weight: 1
+      - path: skeleton:left
+        weight: 1
+      - path: walk:skeleton:bodyctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:hipctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7/walk:skeleton:l_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1/walk:skeleton:r_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee/walk:skeleton:l_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee/walk:skeleton:r_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:head
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow/walk:skeleton:l_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow/walk:skeleton:r_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3/walk:skeleton:head_ctrl
+        weight: 1
+      - path: walk:skeleton:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk Loop
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: board_b
+        weight: 1
+      - path: board_f
+        weight: 1
+      - path: body
+        weight: 1
+      - path: head
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint3
+        weight: 1
+      - path: joint3/joint2 1
+        weight: 1
+      - path: l_arm
+        weight: 1
+      - path: l_leg
+        weight: 1
+      - path: r_arm
+        weight: 1
+      - path: r_leg
+        weight: 1
+      - path: skeleton:bodyctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:hipctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7/skeleton:l_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1/skeleton:r_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee/skeleton:l_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee/skeleton:r_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:head
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow/skeleton:l_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow/skeleton:r_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3/skeleton:head_ctrl
+        weight: 1
+      - path: skeleton:left
+        weight: 1
+      - path: walk:skeleton:bodyctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:hipctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7/walk:skeleton:l_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1/walk:skeleton:r_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee/walk:skeleton:l_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee/walk:skeleton:r_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:head
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow/walk:skeleton:l_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow/walk:skeleton:r_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3/walk:skeleton:head_ctrl
+        weight: 1
+      - path: walk:skeleton:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: board_b
+        weight: 1
+      - path: board_f
+        weight: 1
+      - path: body
+        weight: 1
+      - path: head
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint3
+        weight: 1
+      - path: joint3/joint2 1
+        weight: 1
+      - path: l_arm
+        weight: 1
+      - path: l_leg
+        weight: 1
+      - path: r_arm
+        weight: 1
+      - path: r_leg
+        weight: 1
+      - path: skeleton:bodyctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:hipctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_arm/skeleton:l_armctrl/skeleton:group7/skeleton:l_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:l_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_arm/skeleton:r_armctrl/skeleton:group7
+          1/skeleton:r_elbowctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_kneectrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:r_legctrl
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:l_leg/skeleton:l_knee/skeleton:l_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:hip/skeleton:r_leg/skeleton:r_knee/skeleton:r_foot
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:head
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:l_arm
+          1/skeleton:l_elbow/skeleton:l_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spine/skeleton:spine1/skeleton:spine2/skeleton:spine3/skeleton:r_arm
+          1/skeleton:r_elbow/skeleton:r_hand
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: skeleton:bodyctrl/skeleton:spinectrl4/skeleton:nurbsCircle1/skeleton:spinectrl1/skeleton:nurbsCircle1
+          1/skeleton:spinectrl2/skeleton:nurbsCircle1 2/skeleton:spinectrl3/skeleton:nurbsCircle1
+          3/skeleton:head_ctrl
+        weight: 1
+      - path: skeleton:left
+        weight: 1
+      - path: walk:skeleton:bodyctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:hipctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_arm/walk:skeleton:l_armctrl/walk:skeleton:group7/walk:skeleton:l_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:l_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_arm/walk:skeleton:r_armctrl/walk:skeleton:group7
+          1/walk:skeleton:r_elbowctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_kneectrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:r_legctrl
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:l_leg/walk:skeleton:l_knee/walk:skeleton:l_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:hip/walk:skeleton:r_leg/walk:skeleton:r_knee/walk:skeleton:r_foot
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:head
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:l_arm
+          1/walk:skeleton:l_elbow/walk:skeleton:l_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spine/walk:skeleton:spine1/walk:skeleton:spine2/walk:skeleton:spine3/walk:skeleton:r_arm
+          1/walk:skeleton:r_elbow/walk:skeleton:r_hand
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3
+        weight: 1
+      - path: walk:skeleton:bodyctrl/walk:skeleton:spinectrl4/walk:skeleton:nurbsCircle1/walk:skeleton:spinectrl1/walk:skeleton:nurbsCircle1
+          1/walk:skeleton:spinectrl2/walk:skeleton:nurbsCircle1 2/walk:skeleton:spinectrl3/walk:skeleton:nurbsCircle1
+          3/walk:skeleton:head_ctrl
+        weight: 1
+      - path: walk:skeleton:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
