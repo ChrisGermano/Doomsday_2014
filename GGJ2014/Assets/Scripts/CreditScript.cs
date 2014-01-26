@@ -28,7 +28,7 @@ public class CreditScript : MonoBehaviour {
 		c_height -= 10;
 
 
-		credits.transform.position = new Vector3(0 - c_width/2z, 
+		credits.transform.position = new Vector3(0 - c_width/2, 
 		                                         credits.transform.position.y, 
 		                                         0);
 	}
