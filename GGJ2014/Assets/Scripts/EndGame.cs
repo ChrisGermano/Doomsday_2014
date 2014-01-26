@@ -18,12 +18,13 @@ public class EndGame : MonoBehaviour {
 	private Color badColor = new Color(1f,0f,0f,1f);
 	private Color goodColor = new Color(0.059f,0.725f,1f,1f);
 
-	public float startT;
+	public float startT = 0;
 	private float dist;
 	private float speed = 40f;
 
 	// Use this for initialization
 	void Start () {
+		RenderSettings.skybox.SetColor("_Tint", new Color(0f, 0f, 1f));
 		if (doomsday) {
 			RenderSettings.fogColor = new Color(0f,0f,0f);
 		} else {
@@ -37,6 +38,7 @@ public class EndGame : MonoBehaviour {
 	}
 
 	public void EndUpdate () {
+		Debug.Log (Time.time + " - " + startT);
 		float movedDist = (Time.time - startT) * speed;
 		float perDist = movedDist / dist;
 		meteor.transform.position = Vector3.Lerp(meteorStart, new Vector3(0f,0f,0f), perDist);
@@ -52,7 +54,6 @@ public class EndGame : MonoBehaviour {
 		}
 
 		if (perDist >= 1) {
-			RenderSettings.skybox.SetColor("_Tint", new Color(0f, 0f, 1f));
 			Application.LoadLevel("CreditScene");
 		} else if (perDist > 0.8f) {
 			if (!RenderSettings.fog) {

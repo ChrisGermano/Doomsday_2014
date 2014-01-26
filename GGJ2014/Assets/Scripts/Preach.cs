@@ -69,12 +69,12 @@ public class Preach : MonoBehaviour {
 		}
 
 		if (timeLeft <= 0) {
-			if (followers.Count >= (GetComponent<Spawn>().numAI / 10)) {
+			if (followers.Count >= (GetComponent<Spawn>().numAI / 10))
 				GetComponent<EndGame>().doomsday = true;
-			} else {
+			 else
 				GetComponent<EndGame>().doomsday = false;
-			}
-			GetComponent<EndGame>().startT = Time.time;
+			if (GetComponent<EndGame>().startT == 0)
+				GetComponent<EndGame>().startT = endTime;
 			GetComponent<EndGame>().EndUpdate();
 		}
 
