@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 434ff6b80386947cda8181427772b4e6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body
+    100002: body 1
+    100004: head
+    100006: l_arm
+    100008: l_arm1
+    100010: l_leg
+    100012: //RootNode
+    100014: r_leg
+    100016: skeleton:bodyctrl
+    100018: skeleton:group7
+    100020: skeleton:group7 1
+    100022: skeleton:head
+    100024: skeleton:head_ctrl
+    100026: skeleton:hip
+    100028: skeleton:hipctrl
+    100030: skeleton:l_arm
+    100032: skeleton:l_arm 1
+    100034: skeleton:l_armctrl
+    100036: skeleton:l_elbow
+    100038: skeleton:l_elbowctrl
+    100040: skeleton:l_foot
+    100042: skeleton:l_hand
+    100044: skeleton:l_knee
+    100046: skeleton:l_kneectrl
+    100048: skeleton:l_leg
+    100050: skeleton:l_legctrl
+    100052: skeleton:left
+    100054: skeleton:nurbsCircle1
+    100056: skeleton:nurbsCircle1 1
+    100058: skeleton:nurbsCircle1 2
+    100060: skeleton:nurbsCircle1 3
+    100062: skeleton:r_arm
+    100064: skeleton:r_arm 1
+    100066: skeleton:r_armctrl
+    100068: skeleton:r_elbow
+    100070: skeleton:r_elbowctrl
+    100072: skeleton:r_foot
+    100074: skeleton:r_hand
+    100076: skeleton:r_knee
+    100078: skeleton:r_kneectrl
+    100080: skeleton:r_leg
+    100082: skeleton:r_legctrl
+    100084: skeleton:spine
+    100086: skeleton:spine1
+    100088: skeleton:spine2
+    100090: skeleton:spine3
+    100092: skeleton:spinectrl1
+    100094: skeleton:spinectrl2
+    100096: skeleton:spinectrl3
+    100098: skeleton:spinectrl4
+    100100: tie
+    400000: body
+    400002: body 1
+    400004: head
+    400006: l_arm
+    400008: l_arm1
+    400010: l_leg
+    400012: //RootNode
+    400014: r_leg
+    400016: skeleton:bodyctrl
+    400018: skeleton:group7
+    400020: skeleton:group7 1
+    400022: skeleton:head
+    400024: skeleton:head_ctrl
+    400026: skeleton:hip
+    400028: skeleton:hipctrl
+    400030: skeleton:l_arm
+    400032: skeleton:l_arm 1
+    400034: skeleton:l_armctrl
+    400036: skeleton:l_elbow
+    400038: skeleton:l_elbowctrl
+    400040: skeleton:l_foot
+    400042: skeleton:l_hand
+    400044: skeleton:l_knee
+    400046: skeleton:l_kneectrl
+    400048: skeleton:l_leg
+    400050: skeleton:l_legctrl
+    400052: skeleton:left
+    400054: skeleton:nurbsCircle1
+    400056: skeleton:nurbsCircle1 1
+    400058: skeleton:nurbsCircle1 2
+    400060: skeleton:nurbsCircle1 3
+    400062: skeleton:r_arm
+    400064: skeleton:r_arm 1
+    400066: skeleton:r_armctrl
+    400068: skeleton:r_elbow
+    400070: skeleton:r_elbowctrl
+    400072: skeleton:r_foot
+    400074: skeleton:r_hand
+    400076: skeleton:r_knee
+    400078: skeleton:r_kneectrl
+    400080: skeleton:r_leg
+    400082: skeleton:r_legctrl
+    400084: skeleton:spine
+    400086: skeleton:spine1
+    400088: skeleton:spine2
+    400090: skeleton:spine3
+    400092: skeleton:spinectrl1
+    400094: skeleton:spinectrl2
+    400096: skeleton:spinectrl3
+    400098: skeleton:spinectrl4
+    400100: tie
+    4300000: body
+    4300002: r_leg
+    4300004: l_leg
+    4300006: l_arm
+    4300008: head
+    4300010: tie
+    4300012: l_arm1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body 1
+    13700002: head
+    13700004: l_arm
+    13700006: l_arm1
+    13700008: l_leg
+    13700010: r_leg
+    13700012: tie
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
