@@ -22,6 +22,7 @@ public class AIPath : MonoBehaviour {
 		transform.Find("board_model").gameObject.SetActive(false);
 		anim.Play ("Walk Start");
 		anim.PlayQueued("Walk Loop");
+		
 	}
 	
 	// Update is called once per frame
@@ -60,9 +61,11 @@ public class AIPath : MonoBehaviour {
 			}
 			//move towards the player
 			transform.position += transform.forward * Speed * Time.deltaTime;
+			PlayAudio();
 		} else {
 			if(!Rotating){
 				transform.position += transform.forward * Speed * Time.deltaTime;
+				PlayAudio();
 				if (hit_obj) {
 					Quaternion xx = Quaternion.LookRotation(target.normal, transform.up);
 					StartCoroutine(RotateCharacter(xx));
@@ -120,5 +123,13 @@ public class AIPath : MonoBehaviour {
 		board.SetActive(true);
 		transform.Find("model").gameObject.SetActive(false);
 		Following = true;
+	}
+
+	private void PlayAudio(){
+		if(!audio.isPlaying){
+			audio.pitch = 0.5f + (float)r.NextDouble();
+			audio.Play();
+		}
+
 	}
 }
